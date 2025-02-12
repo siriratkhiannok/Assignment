@@ -5,9 +5,9 @@
   tasks:
     - name: Creating the Container
       docker_container:
-        name: KD-container  # docker container name
-        image: KD:latest   # docker image name
+        name: ok-container  # docker container name
+        image: ok:latest   # docker image name
         ports:
-          - "12345:80"  
+          - "18000:80"  
         state: started
         restart: true
