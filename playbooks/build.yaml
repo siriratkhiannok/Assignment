@@ -5,9 +5,9 @@
   tasks:
     - name: Building Docker Image
       docker_image:
-        name: 66022916:latest  # docker image name
+        name: KD:latest  # docker image name
         source: build
         build:
-          path: ~/66022916  # path ที่เก็บไฟล์ source code
+          path: ~/KD  # path ที่เก็บไฟล์ source code
         state: present
         force_source: true
