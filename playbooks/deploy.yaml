@@ -8,6 +8,6 @@
         name: KD-container  # docker container name
         image: KD:latest   # docker image name
         ports:
-          - "20000:80"  
+          - "12345:80"  
         state: started
         restart: true
