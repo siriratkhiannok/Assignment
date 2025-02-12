@@ -8,6 +8,6 @@
         name: ok-container  # docker container name
         image: ok:latest   # docker image name
         ports:
-          - "18000:80"  
+          - "12000:80"  
         state: started
         restart: true
