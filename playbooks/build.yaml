@@ -8,6 +8,6 @@
         name: KD:latest  # docker image name
         source: build
         build:
-          path: ~/KD  # path ที่เก็บไฟล์ source code
+          path: /root/KD  # path ที่เก็บไฟล์ source code
         state: present
         force_source: true
